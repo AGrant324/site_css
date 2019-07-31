@@ -1,0 +1,63 @@
+/* frsavailability CSS */
+
+.custom-checkbox-green{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	top: 3px;
+	background: url("../site_assets/checkbox-green.png") no-repeat;
+}
+.custom-checkbox-green:hover{
+	background: url("../site_assets/checkbox-hover-green.png") no-repeat;
+}
+.custom-checkbox-green.selected{
+	background: url("../site_assets/checkbox-selected-green.png") no-repeat;
+}
+.custom-checkbox-green input[type="checkbox"]{
+	margin: 0;
+	position: absolute;
+	z-index: 2;            
+	cursor: pointer;
+	outline: none;
+	opacity: 0;
+	/* CSS hacks for older browsers */
+	_noFocusLine: expression(this.hideFocus=true); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+}
+
+
+
+.custom-checkbox-red{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	top: 3px;
+	background: url("../site_assets/checkbox-red.png") no-repeat;
+}
+.custom-checkbox-red:hover{
+	background: url("../site_assets/checkbox-hover-red.png") no-repeat;
+}
+.custom-checkbox-red.selected{
+	background: url("../site_assets/checkbox-selected-red.png") no-repeat;
+}
+.custom-checkbox-red input[type="checkbox"]{
+	margin: 0;
+	position: absolute;
+	z-index: 2;            
+	cursor: pointer;
+	outline: none;
+	opacity: 0;
+	/* CSS hacks for older browsers */
+	_noFocusLine: expression(this.hideFocus=true); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+}

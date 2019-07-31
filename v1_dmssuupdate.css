@@ -1,0 +1,370 @@
+/* dmssuupdate CSS */
+
+/* Squeeze up standard bootstrap columns */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.form-control {
+  padding: 4px 4px;
+}
+
+/* ========================= Special Buttons ==================================*/
+
+.btn-FiOn { 
+  color: #ffffff; 
+  background-color: #2B26D1; 
+  border-color: #6C7075; 
+} 
+ 
+.btn-FiOn:hover, 
+.btn-FiOn:focus, 
+.btn-FiOn:active, 
+.btn-FiOn.active, 
+.open .dropdown-toggle.btn-FiOn { 
+  color: #ffffff; 
+  background-color: #26219E; 
+  border-color: #6C7075; 
+}
+
+.btn-FiOff { 
+  color: #ffffff; 
+  background-color: #B7B6DE; 
+  border-color: #6C7075;
+  text-decoration: underline; 
+} 
+ 
+.btn-FiOff:hover, 
+.btn-FiOff:focus, 
+.btn-FiOff:active, 
+.btn-FiOff.active, 
+.open .dropdown-toggle.btn-FiOff { 
+  color: #ffffff; 
+  background-color: #5D5ACC; 
+  border-color: #6C7075;
+  text-decoration: underline; 
+} 
+
+.btn-SuOn { 
+  color: #ffffff; 
+  background-color: #28738F; 
+  border-color: #6C7075; 
+} 
+ 
+.btn-SuOn:hover, 
+.btn-SuOn:focus, 
+.btn-SuOn:active, 
+.btn-SuOn.active, 
+.open .dropdown-toggle.btn-SuOn { 
+  color: #ffffff; 
+  background-color: #0F5769; 
+  border-color: #6C7075; 
+} 
+
+.btn-SuOff { 
+  color: #ffffff; 
+  background-color: #99BBC7; 
+  border-color: #6C7075;
+  text-decoration: underline; 
+} 
+ 
+.btn-SuOff:hover, 
+.btn-SuOff:focus, 
+.btn-SuOff:active, 
+.btn-SuOff.active, 
+.open .dropdown-toggle.btn-SuOff { 
+  color: #ffffff; 
+  background-color: #537A94; 
+  border-color: #6C7075; 
+} 
+
+.btn-DiOn { 
+  color: #ffffff; 
+  background-color: #238737; 
+  border-color: #6C7075; 
+} 
+ 
+.btn-DiOn:hover, 
+.btn-DiOn:focus, 
+.btn-DiOn:active, 
+.btn-DiOn.active, 
+.open .dropdown-toggle.btn-DiOn { 
+  color: #ffffff; 
+  background-color: #236134; 
+  border-color: #6C7075; 
+} 
+
+.btn-DiOff { 
+  color: #ffffff; 
+  background-color: #8CB895; 
+  border-color: #6C7075; 
+  text-decoration: underline;
+} 
+ 
+.btn-DiOff:hover, 
+.btn-DiOff:focus, 
+.btn-DiOff:active, 
+.btn-DiOff.active, 
+.open .dropdown-toggle.btn-DiOff { 
+  color: #ffffff; 
+  background-color: #4A8059; 
+  border-color: #6C7075;
+  text-decoration: underline; 
+} 
+ 
+.btn-FoOn{ 
+  color: #ffffff; 
+  background-color: #BDB01E; 
+  border-color: #6C7075; 
+} 
+ 
+.btn-FoOn:hover, 
+.btn-FoOn:focus, 
+.btn-FoOn:active, 
+.btn-FoOn.active, 
+.open .dropdown-toggle.btn-FoOff { 
+  color: #ffffff; 
+  background-color: #7A804A; 
+  border-color: #6C7075; 
+} 
+ 
+ .btn-FoOff { 
+  color: #ffffff; 
+  background-color: #D1CE92; 
+  border-color: #6C7075;
+  text-decoration: underline; 
+} 
+ 
+.btn-FoOff:hover, 
+.btn-FoOff:focus, 
+.btn-FoOff:active, 
+.btn-FoOff.active, 
+.open .dropdown-toggle.btn-FoOff { 
+  color: #ffffff; 
+  background-color: #D1C647; 
+  border-color: #6C7075; 
+  text-decoration: underline;
+} 
+ 
+ 
+ 
+
+
+
+.btn-FiOnActive { 
+  color: #ffffff; 
+  background-color: #2B26D1; 
+  border-color: green;
+  border-width: 4px;   
+} 
+ 
+.btn-FiOnActive:hover, 
+.btn-FiOnActive:focus, 
+.btn-FiOnActive:active, 
+.btn-FiOnActive.active, 
+.open .dropdown-toggle.btn-FiOnActive { 
+  color: #ffffff; 
+  background-color: #26219E; 
+  border-color: green;
+  border-width: 4px;   
+}
+
+.btn-FiOffActive { 
+  color: #ffffff; 
+  background-color: #B7B6DE; 
+  border-color: green;
+  border-width: 4px;
+  text-decoration: underline;   
+} 
+ 
+.btn-FiOffActive:hover, 
+.btn-FiOffActive:focus, 
+.btn-FiOffActive:active, 
+.btn-FiOffActive.active, 
+.open .dropdown-toggle.btn-FiOffActive { 
+  color: #ffffff; 
+  background-color: #5D5ACC; 
+  border-color: green;
+  border-width: 4px;
+  text-decoration: underline;   
+} 
+
+.btn-SuOnActive { 
+  color: #ffffff; 
+  background-color: #28738F; 
+  border-color: green;
+  border-width: 4px;   
+} 
+ 
+.btn-SuOnActive:hover, 
+.btn-SuOnActive:focus, 
+.btn-SuOnActive:active, 
+.btn-SuOnActive.active, 
+.open .dropdown-toggle.btn-SuOnActive { 
+  color: #ffffff; 
+  background-color: #0F5769; 
+  border-color: green;
+  border-width: 4px;   
+} 
+
+.btn-SuOffActive { 
+  color: #ffffff; 
+  background-color: #99BBC7; 
+  border-color: green;
+  border-width: 4px;
+  text-decoration: underline;   
+} 
+ 
+.btn-SuOffActive:hover, 
+.btn-SuOffActive:focus, 
+.btn-SuOffActive:active, 
+.btn-SuOffActive.active, 
+.open .dropdown-toggle.btn-SuOffActive { 
+  color: #ffffff; 
+  background-color: #537A94; 
+  border-color: green;
+  border-width: 4px; 
+  text-decoration: underline;  
+} 
+
+.btn-DiOnActive { 
+  color: #ffffff; 
+  background-color: #238737; 
+  border-color: green;
+  border-width: 4px;   
+} 
+ 
+.btn-DiOnActive:hover, 
+.btn-DiOnActive:focus, 
+.btn-DiOnActive:active, 
+.btn-DiOnActive.active, 
+.open .dropdown-toggle.btn-DiOnActive { 
+  color: #ffffff; 
+  background-color: #236134; 
+  border-color: green;
+  border-width: 4px;   
+} 
+
+.btn-DiOffActive { 
+  color: #ffffff; 
+  background-color: #8CB895; 
+  border-color: green;
+  border-width: 4px;
+  text-decoration: underline;   
+} 
+ 
+.btn-DiOffActive:hover, 
+.btn-DiOffActive:focus, 
+.btn-DiOffActive:active, 
+.btn-DiOffActive.active, 
+.open .dropdown-toggle.btn-DiOffActive { 
+  color: #ffffff; 
+  background-color: #4A8059; 
+  border-color: green;
+  border-width: 4px; 
+  text-decoration: underline;  
+} 
+ 
+.btn-FoOnActive{ 
+  color: #ffffff; 
+  background-color: #BDB01E; 
+  border-color: green;
+  border-width: 4px;   
+} 
+ 
+.btn-FoOnActive:hover, 
+.btn-FoOnActive:focus, 
+.btn-FoOnActive:active, 
+.btn-FoOnActive.active, 
+.open .dropdown-toggle.btn-FoOnActive { 
+  color: #ffffff; 
+  background-color: #7A804A; 
+  border-color: green;
+  border-width: 4px;   
+} 
+ 
+ .btn-FoOffActive { 
+  color: #ffffff; 
+  background-color: #D1CE92; 
+  border-color: green;
+  border-width: 4px; 
+  text-decoration: underline;  
+} 
+ 
+.btn-FoOffActive:hover, 
+.btn-FoOffActive:focus, 
+.btn-FoOffActive:active, 
+.btn-FoOffActive.active, 
+.open .dropdown-toggle.btn-FoOffActive { 
+  color: #ffffff; 
+  background-color: #D1C647; 
+  border-color: green;
+  border-width: 4px; 
+  text-decoration: underline;  
+}
+
+/* ========================= Special Checkbox and Radio Buttons ==================================*/
+
+/* based on https://codepen.io/BrianSassaman/pen/iLrpC */
+
+
+label.radiobtn span {
+  font-size: 1.5em ;
+  box-shadow: none;
+}
+
+label input[type="radio"] ~ i.fa{
+    color: #c8c8c8;    display: inline;
+}
+label:hover input[type="radio"] ~ i.fa {
+	color: #7AA3CC;
+}
+
+
+
+
+
+
+
+
+
+div[data-toggle="buttons"] label.active{
+    color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 2em;
+text-align: left;
+white-space: nowrap;
+vertical-align: top;
+cursor: pointer;
+background-color: none;
+border: 0px solid 
+#c8c8c8;
+border-radius: 3px;
+color: #c8c8c8;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+
+

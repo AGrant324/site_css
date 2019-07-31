@@ -1,0 +1,26 @@
+/* sfmclubuupdate CSS */ 
+
+
+.nav-tabs .GRGTab>a {
+  background-color: #A3C364; 
+  border-color: #777777;
+  color:#fff;
+}
+
+.nav-tabs .GRBTab>a {
+  background-color: #53A7DA; 
+  border-color: #777777;
+  color:#fff;
+}
+
+.nav-tabs .FATab>a {
+  background-color: #081E3F; 
+  border-color: #777777;
+  color:#fff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  background-color: gray;  
+  border-bottom: 5px solid silver;
+}
+
